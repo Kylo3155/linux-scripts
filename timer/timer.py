@@ -70,5 +70,6 @@ output = {
 }
 
 print(json.dumps(output))
+
 with open(status_file, "w") as f:
     json.dump(status, f)
