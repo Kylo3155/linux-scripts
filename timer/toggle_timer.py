@@ -23,4 +23,4 @@ else:
 with open(status_file, "w") as f:
     json.dump(status, f)
 
-subprocess.run(["pkill", "-RTMIN+1", "waybar"])
+#subprocess.run(["pkill", "-RTMIN+1", "waybar"])
